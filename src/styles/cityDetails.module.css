@@ -1,0 +1,45 @@
+.section {
+  bottom: 4rem;
+  left: 3%;
+  gap: 2rem;
+  z-index: 10;
+}
+
+.section h2 {
+  font-size: 6.5rem;
+  font-weight: 300;
+}
+
+.section h3 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.section svg {
+  font-size: 4rem;
+}
+
+.section p {
+  font-size: small;
+}
+
+@media (max-width: 840px) {
+  section.section {
+    justify-content: space-between;
+    width: -webkit-fill-available;
+    padding-right: 3%;
+  }
+  .section h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+  }
+
+  .section h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+
+  .section svg {
+    font-size: 2rem;
+  }
+}

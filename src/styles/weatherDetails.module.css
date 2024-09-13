@@ -1,0 +1,52 @@
+.aside {
+  right: 0;
+  top: 0;
+  width: 25rem;
+  padding-right: 3%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  padding-top: 2rem;
+  padding-left: 3%;
+}
+
+.aside input {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  height: 2.5rem;
+}
+
+.aside input::placeholder {
+  color: white;
+}
+
+.inputHolder .glass {
+  top: 0.75rem;
+  right: 0.75rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.aside p {
+  margin-block: 2rem;
+}
+
+.aside ul {
+  flex-direction: column;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.aside ul .firstIcon {
+  color: #dfa1a1;
+}
+
+.aside ul .secondIcon {
+  color: #6d97ca;
+}
+
+@media (max-width: 840px) {
+  aside.aside {
+    width: 100%;
+  }
+}
